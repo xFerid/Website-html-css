@@ -1,0 +1,28 @@
+:root { --mavi: #6bc2f1 }
+header { 
+    background: url('../img/headerbg.jpg') center/cover 
+}
+.bg-mavi { background: var(--mavi) }
+.text-mavi { color: var(--mavi) }
+.bg-transp-white { background: rgba(255,255,255,.8) }
+.vh-50 { height: 50vh }
+.vh-70 { height: 70vh }
+.vh-60 { height: 60vh }
+#services .container { padding: 110px 0 110px 0; }
+#img1 { width: 59px; }
+#img2 { width: 37px; }
+#img3 { width: 77px; }
+#img4 { width: 75px; }
+#img5 { width: 50px; }
+#img6 { width: 65px; }
+
+
+#portfolio .container { gap: 30px; padding: 60px 0 60px 0; }
+
+
+#fimg1 { background: url('../img/fimg1.jpg') center/cover }
+#fimg2 { background: url('../img/fimg2.jpg') center/cover }
+#fimg1:hover, #fimg2:hover { opacity: .8; }
+#message { height: 200px}
+
+footer { background: #072135 }

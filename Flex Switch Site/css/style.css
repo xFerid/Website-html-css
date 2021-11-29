@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+:root {
+    --yasil: #54d154;
+    --tyasil: #207b20;
+}
+.row { overflow:auto }
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover;
+    text-align: center;
+}
+#scroll a {
+    display: inline-block;
+    font: 1em Roboto, sans-serif;
+    color: #111;
+    background: rgba(255,255,255,.8);
+    padding: 5px 10px;
+    border-radius: 1em;
+    margin: 1em;
+}
+h1 {
+    font: bold 2em Montserrat, sans-serif;
+    color: #fff;
+    padding: 20px;
+}
+h2 {
+    font: 1em Montserrat;
+    color: #818181;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3 {
+    font: bold 1.5em Roboto;
+    color: #818181;
+    text-align: center;
+    padding: 20px;
+} 
+#footdivh3 {
+  font: 1.2em Montserrat, sans-serif;
+  color: rgb(16, 16, 16);
+  text-transform: uppercase;
+  padding-bottom: 0;
+}
+#footdivhr {
+	width: 30px;
+	border: 0;
+    border-top: 1px solid #101010;
+}
+h4 {
+  font: 1em "Montserrat";
+  color: #ddd;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+h5 {
+  font: 1em Roboto;
+  color: #fff;
+} 
+h6 {
+    font: 1em Roboto;
+    color: #b7b3b3;
+    text-align: center;
+}
+  
+hr {
+    border: 0;
+    border-top: 1px solid #818181;
+    width:  43px;
+}  
+nav ul li {
+    padding: 0 10px;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 5px 0;
+    white-space: nowrap;
+    font: bold 1em Roboto, sans-serif;
+    color: #fff;
+    border-top: 5px solid rgba(0,0,0,0);
+}
+#logo { 
+    display: inline-block;
+    padding: 5px;
+}
+#search input {
+    background: rgba(255,255,255,.8) url('../img/search.png') 90% center/15px no-repeat;
+    font: 1em Roboto;
+    color: #111;
+    padding: 7px 16px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+.title button {
+    background: var(--yasil);
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font: 1.6em Roboto;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    color: #fff;
+    padding: 10px 30px; 
+}
+main section {
+    padding: 40px 20px;
+    text-align: center;
+}
+#arts1 article { 
+    padding: 50px 0; 
+}
+#arts1 article div {
+    width: 140px;
+    padding: 30px;
+    background: #e1f3e1;
+    border-radius: 27px;
+    margin: auto;
+}
+#arts1 article div i { 
+    color: var(--yasil);
+    font-size: 4.7em;
+}
+#arts1 article p {
+    font: .95em/1.2 Montserrat;
+    color: #818181;
+}
+#arts1 button {
+    background: var(--yasil);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font: 1em Roboto;
+    color: #fff;
+    padding: 10px 30px; 
+    margin: 25px 0;
+
+} 
+.bg-yasil { background: var(--yasil) }
+.bg-boz { background: #f1f1f1 }
+.txt-yasil { color: var(--tyasil)!important }
+.border-yasil { border-top: 1px solid var(--tyasil)!important }
+#btngroup { 
+    display: flex;
+    justify-content: center;
+    padding: 50px 0; 
+}
+#btngroup button {
+    padding: 10px 20px;
+    border: 1px solid var(--tyasil);
+    background: #fff;
+    font: 1em Roboto;
+    color: var(--tyasil);
+    text-align: center;
+} 
+#btngroup button:hover, .btnactive  { 
+    background: var(--tyasil)!important;
+    color: #fff!important;
+}
+#btngroup button:first-child { border-radius: 20px 0 0 20px } 
+#btngroup button:last-child { border-radius: 0 20px 20px 0 } 
+#images {
+    display: flex; 
+    flex-direction: column; 
+}
+#images img {
+    object-fit: cover; 
+    flex: 1 1 100%;
+    height: 50vh;
+    margin: 2vh 0;
+}
+#btnmore {
+    padding: 10px 20px;
+    margin: 50px 0; 
+    border: 1px solid var(--tyasil);
+    border-radius: 20px;
+    background: var(--tyasil);
+    font: 1em Roboto;
+    color: #fff;
+}
+.logos {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.logos img {
+    object-fit: cover; 
+    margin: 5vh 0;
+}
+#client {
+  font: 1.2em Roboto, sans,serif;
+  color: rgb(165, 157, 157);
+  text-align: center;
+  padding: 10px 25px;
+  border-radius: 1.2em;
+  background: #dddcdc;
+  margin: 60px 0;
+  border: 1px solid #dddcdc ;
+}
+#has3 {
+  font: 1.5em Montserrat, sans-serif;
+  color: rgb(32, 123, 32);
+  text-transform: uppercase;
+  padding: 0;
+}
+#pe {
+  font-size: 1em "Myriad Pro";
+  color: rgb(43, 155, 43);
+}
+.duzxet {
+	width: 3px;
+	height: 15vh;
+	padding-top: 10px;
+	margin: auto;
+}
+.has5ler {
+	padding: 10px;
+}
+.sekiller {
+	padding-top: 25px;
+}
+.fa-twitter {
+	background: lightblue;
+	padding: 5px;
+	border-radius: 1em;
+}
+.fa-behance {
+	background: #0061ff;
+	padding: 5px;
+	border-radius: 1em;
+	font-size: .95em;
+}
+.fa-basketball-ball {
+	background: pink;
+	padding: 5px;
+	border-radius: 1em;
+	//font-size: .95em;
+}
+.ymrdiv {
+	background: #c5e9c5 ;
+	width: 100px;
+	padding: 5px;
+	border-radius: 1em; 
+	margin: auto;
+}
+.divgrp {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#mndivend {
+		background: #3eba3e;
+		display: flex;
+		justify-content: center;
+}
+#mndivend button {
+		margin: 30px;
+}
+#footer {
+	background: #333;
+	padding-bottom: 30px;
+}
+.ftsection {
+	text-align: center;
+}
+.fthr {
+	  color: #fff;
+	  width: 30px;
+}
+.ftp {
+  font: 1em Roboto, sans-serif;
+  color: rgb(204, 204, 204);
+  padding: 25px;
+}
+.noftp {
+	padding: 0;
+}
+#ftymrdiv {
+	padding-bottom: 50px;
+}
+#recentposts {
+	padding-bottom: 20px;
+}
+#ftymrdiv .ymrdiv {
+	background: #e6e7e6;
+}
+#ftsection {
+	display: flex;
+	flex-direction: cloumn;
+	flex-wrap: wrap;
+}
+#bezmek { 
+	 width: 100%;
+	 text-align: left;
+}
+.pft {
+  float: left;
+  font-size: 1em Montserrat;
+  color: #ccc;
+  padding: 5px;
+}
+.sonimg {
+	float: left;
+	width: 100px;
+ }
+.sonbt {
+	text-align: left;
+	padding: 10px 110px;
+}
+.sondiv {
+	margin: 10px 0;
+}
+.sonbt button {
+  font: 0.95em Montserrat, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #54d154;
+  border-radius: 4px;
+}
+.uidesign {
+	background: orange;
+	border: 1px solid orange!important;
+}
+#sonftp {
+		padding-bottom: 20px;
+	}
+#photography {
+	background: #46b6ef;
+	border: 1px solid  #46b6ef!important;
+}
+#book {
+	background: #f34d04;
+	border: 1px solid  #f34d04!important;
+}
+.buttons {
+	width: 200px;
+	background: #444;
+	border: 1px solid #444;
+	border-radius: 5px;
+	padding: 5px;
+}
+#ortabuton {
+	margin: 3px 0;
+}
+#submit {
+	color: #fff;
+	width: 210px;
+	background: #2b9b2b;
+	border: 1px solid #2b9b2b;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	padding: 5px;
+}
+#buttonslst{
+	height: 130px;
+	margin: 0 0 3px 0;
+}
+#footdiv {
+	background: #222;
+}
+#nologos {
+	padding-bottom: 30px;
+}
+#veson {
+	background: #111;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {font-size: 3.4em}
+    nav {
+        display: flex;
+    }
+    #logo, nav ul, #search { flex: 1 1 33%; } 
+    nav ul { 
+        display: flex;
+        order: -1;
+    }
+    #search { text-align: right; padding: 5px 30px}
+    .active, nav ul li a:hover {
+        border-top: 5px solid var(--yasil);
+    }
+    #arts1 { display: flex; }
+    #arts1 article { padding: 50px}
+    #images {
+        padding: 0 8.5%;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+    #images img {
+        object-fit: cover; 
+        width: 18%;
+        height: 200px;
+        flex: 0 1 200px;
+    }
+    .logos {
+        padding: 0 8.5%;
+        flex-direction: row; 
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+    .logos img {
+        object-fit: cover; 
+        margin: 3vh 5vw;
+    }
+	#star {
+		display: flex;
+		justify-content: center; 
+	}
+	.divgrp {
+		padding: 50px;
+	}
+	.duzxet {
+	width: inherit;
+	height: inherit;
+	padding-top: 10px;
+	}
+	.ftsection {
+	width: 33%;
+    }
+	#footer {
+		display: flex;
+	}
+	#ortasection {
+		padding: 0 0 0 120px;
+	}
+	.sonimg {
+		width:70px;
+	}
+	.pft {
+		padding: 0 10px;
+	}
+	.sonbt button { font-size: 0.7em }
+	.sonbt { padding: 5px 80px; }
+	.buttons { width: 320px; padding: 10px; }
+	#submit { width: 340px; padding:10px }
+	#sonftp {
+		padding-bottom: 40px;
+	}
+	.noftp { font-size: .8em}
+	#nologos {
+		flex-wrap: nowrap;
+	}
+}
+  
+  
+  
+  
+  

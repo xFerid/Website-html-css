@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root {
+  --ag: #fff;
+  --yasil: #a2ca28; 
+  --qirmizi: #fd634e; 
+}
+header {
+	position: relative;
+	height: 100vh;
+	background: url('../img/headerbg.jpg') center/cover ;
+	text-align: center;
+}
+header nav, header div {
+	position: absolute;
+}
+header nav {
+	left: 50%;
+	top: 40px;
+	transform: translate(-50%, 0);
+}
+header div {
+	bottom: 10vh;
+	right: 50%;
+	transform: translate(50%, 0);
+	width: 100%;
+}
+#menu a { 
+	font: .8em; Poppins, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+h1 {
+  font: 2em Poppins, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+h2{
+  font: 1.3em 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+h6 {
+  font: bold 1em 'Open Sans', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+h1 span { font-size: .8em; }
+
+.container { max-width: 1180px; margin: auto; }
+.bg-yasil { background: var(--yasil) }
+.bg-qirmizi { background: var(--qirmizi) }
+.bg-ag { background: #fff }
+.txt-yasil { color: var(--yasil) }
+.txt-qirmizi { color: var(--qirmizi) }
+.txt-ag { color: var(--ag) }
+.h-50 { height: 50vh; }
+
+#articles article {
+	padding: 10px;
+}
+#articles {
+	padding: 15px 0;
+}
+#fitness {
+	background: url('../img/fitness.jpg') center/cover ;
+}
+#body {
+	background: url('../img/body.jpg') center/cover ;
+}
+article i { float:left; padding-top: 6px; }
+article p {
+	font: .9em "Myriad Pro";
+	text-indent: 1.5em;
+	letter-spacing: .5px;
+	text-align: justify;
+}
+article a {
+	font-size: .85em;
+}
+article h2 {
+	padding-left: 30px;
+}
+
+#run {
+	background: url('../img/run.jpg') center/cover ;
+}
+#skate {
+	background: url('../img/skate.jpg') center/cover ;
+}
+#grapes {
+	background: url('../img/grapes.jpg') center/cover ; }
+#avacado {
+	background: url('../img/avacado.jpg') center/cover ; }
+#footer {
+	background: url('../img/footer.jpg') center/cover ; }
+
+
+@media only screen and (min-width: 768px) {
+		 header nav {
+		 width: 100%;
+		 padding: 0 50px;
+	 }
+	 #logo { float: left }
+	 #menu { float: right }
+	 #menu li { 
+		display: inline-block;
+		padding: 10px 40px 0 0;
+	 }
+	 h1 { font-size: 2.5em }
+	 h6 { text-align: right; padding: 0 60px 0 0; }
+	 header div {
+		 width: inherit;
+		 right: inherit;
+		 transform: none;
+		 left: 120px;
+	 }
+	 #articles { padding: 110px 0;}
+	 #articles article {
+		 width: 25%;
+		 float: left;
+	 }
+	 article i { float: none; font-size: 2.5em; }
+	 article a { display: block; }
+	 article h2 { padding: 20px 0 30px 0; font-size: 1.5em }
+	 article p { 
+		text-indent: 0;
+		letter-spacing: 0;
+		text-align: none;
+	 }	 
+	 #brc-a { padding-top: 30px }
+	 #ikc-a { padding-top: 50px }
+	 #ucn-a { padding-top: 35px }
+	 #drc-a { padding-top: 55px }
+	 
+	 .row { overflow: auto }
+	 .w-1 { width: 34% }
+	 .w-2 { width: 66% }
+	 .h-1 { height: 34vh }
+	 .h-2 { height: 36vh }
+	 .f-left { float: left }
+	 .f-right { float: right }
+	 h3 {
+		font: 2em 'Open Sans', sans-serif;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	h5 {
+	  font: .9em Montserrat;
+	  text-transform: uppercase;
+	  padding: 55px 0 0 0;
+	  text-align: center;
+	}
+	 .pler { 
+		text-align: center;
+		padding: 20px 50px;
+		font: 1em "Myriad Pro";
+	 }
+	 .alar {
+		 text-align: center;
+		 text-decoration: underline;
+	 }
+	.fa-tint { 
+		font-size: 1.5em;
+		padding-left: 180px;
+	}
+	.hlar {
+		text-align: left;
+		padding-left: 30px;
+	}
+	#h1 {
+	  font: 2.5em 'Open Sans', sans-serif;
+	  text-transform: uppercase;
+    }
+	.artend {
+		color: #fff;
+		padding: 30px 0 0 40px;
+	}
+	#endp {
+		color: #fff;
+		padding-left: 30px;
+	}
+	#footer {
+		width: 100%;
+		height: 80vh;
+		text-align: center;
+		color: #fff;
+		padding-top: 100px;
+	}
+	#footend {
+		color: #fff;
+		background: #0d1119;
+	}
+	#footend article {
+		width: 33%;
+		padding-bottom: 50px;
+	}
+	#ortfoot {
+		padding: 0 40px;
+	}
+	.sonh5 {
+		font: .95em OpenSans;
+		text-transform: none;
+		text-align: left;
+	}
+	.sonp {
+		font: .9em OpenSans;
+		color: rgb(130, 151, 167);
+		padding-top: 30px;
+	}
+	.sona {
+		display: inline;
+		padding-right: 10px;
+	}
+	#bira { color: #2e3192; }
+	#ikia { color: #00aeef; }
+	#uca { color: #ed3123; }
+	#dorda { color: #171a8f; }
+	#footerend {
+		background: #0d1119;
+		text-align: right;
+		padding: 0 100px 20px 0;
+	}
+	#button1 {
+		width: 200px;
+		height: 30px;
+	}
+	#button2 {
+		  width: 320px;
+		  height: 30px;
+	}
+	#button3 {
+		  width: 150px;
+		  height: 36px;
+	}
+}

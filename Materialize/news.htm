@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sosial Network</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <style>
+            #menu li:hover { background: rgba(135, 206, 250, 0.2)  }
+            #menu a {white-space: nowrap;} 
+            li.material-icons { vertical-align:middle; padding:7px; }
+            span.badge {min-width: 0}            
+            .small { font-size: 1.2rem!important; padding: 0!important}
+            .collection { border: 0;} 
+            .collection-item { margin: 1rem 0!important; border: 1px solid #e0e0e0 }
+			.yanyanasekil { width: 100px; height: 100px; }
+			#cssimg { width: 200px!important; object-fit: cover; }
+			.px800 { width: 200px!important; }
+
+
+            @media only screen and (min-width: 768px) {
+                .mainrow { padding: 0 50px; }
+				.yanyanasekil { width: 180px!important; }
+				.boats { height: 268px!important; object-fit: cover; }
+				#boat1 { margin: 0 0 0 20px; }
+				#boat2 { margin: 0 10px 0 10px; }
+				#boat3 { margin: 0 10px 0 10px; }
+				#cssimg { width: 800px!important; }
+				.px800 { width: 800px!important; }
+				
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="blue darken-4">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo left">SN</a>
+                        <div class="right">
+                            <img src="img/av_64.png" alt="" class="left responsive-img ">
+                            <span>Luella Hubbart</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m3 l2">
+                        <ul id="menu">
+                            <li>
+                                <a href="profile.htm">
+                                    <i class="material-icons">assignment_ind</i>
+                                    My Profile
+                                </a>
+                            </li>
+                            <li>
+                                <a href="news.htm">
+                                    <i class="material-icons">chrome_reader_mode</i>
+                                    News
+                                </a>
+                            </li>
+                            <li>
+                                <a href="messages.htm">
+                                    <i class="material-icons">email</i>
+                                    Messages
+                                    <span class="new badge blue darken-4" data-badge-caption="">4</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="friends.htm">
+                                    <i class="material-icons">face</i>
+                                    Friends
+                                </a>
+                            </li>
+                            <li>
+                                <a href="events.htm">
+                                    <i class="material-icons">event_available</i>
+                                    Events
+                                </a>
+                            </li>
+                            <li>
+                                <a href="media.htm">
+                                    <i class="material-icons">image</i>
+                                    Media
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 m9 l10">
+                        <div style="overflow: auto">
+                            <h4 class="left">NEWS</h4>
+                            <span class="right" style="margin: 1.52rem 0">
+                                <a class="btn-floating waves-effect waves-light blue darken-4"><i class="material-icons">add</i></a>
+                            </span>
+                        </div>
+                        <div>
+                            <div class="z-depth-2" style="padding: 20px">
+                                <div style="overflow: auto;">
+                                    <img src="img/avatar_1.png" alt="" class="circle left">
+                                    <span class="title"><b>Pranav Talley</b></span>
+                                    <br><i class="small material-icons">date_range</i> July 24 
+                                </div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium molestias aliquid odit atque illum consectetur sapiente, culpa provident cum praesentium. Eligendi, magnam! Deleniti, officiis ut.</p>
+                            </div>
+                        </div>
+						 <div style="padding-top: 15px">
+                            <div class="z-depth-2" style="padding: 20px">
+                                <div style="overflow: auto;">
+                                    <img src="img/avatar_2.png" alt="" class="circle left">
+                                    <span class="title"><b>Serena Perkins </b></span>
+                                    <br><i class="small material-icons">date_range</i> July 24 
+                                </div>
+                             	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium molestias aliquid odit atque illum consectetur sapiente, culpa provident cum praesentium. Eligendi, magnam! Deleniti, officiis ut.</p>
+								<img src="img/boat1.jpg" alt="" class="yanyanasekil boats" id="boat1">
+								<img src="img/boat2.jpg" alt="" class="yanyanasekil boats" id="boat2">
+								<img src="img/boat3.jpg" alt="" class="yanyanasekil boats" id="boat3">
+								<img src="img/plane.jpg" alt="" class="yanyanasekil boats" id="plane">
+						  </div>
+                        </div>
+						<div>
+                            <div class="z-depth-2" style="padding: 20px">
+                                <div style="overflow: auto;">
+                                    <img src="img/avatar_3.png" alt="" class="circle left">
+                                    <span class="title"><b>Lyendsey Thomson </b></span>
+                                    <br><i class="small material-icons">date_range</i> July 24 
+                                </div>
+                                <span>I like this article!</span>
+								<div class="row">
+									<div class="col s12 m7" style="width: 0;">
+									  <div class="card">
+										<div class="card-image">
+										  <img src="img/cssbg.jpg" style="height: 200px; object-fit: cover;" id="cssimg" />
+										</div>
+										<div class="card-content px800"> 
+										  <p>Suspendisse potenti. Aliquam non porttitor neque, eu commodo lacus. Nulla tristique orci at nisl eleifend venenatis. Vestibulum in blandit ex. Vivamus congue ut leo at maximus.</p>
+										</div>
+										<div class="card-action px800"> 
+										  <a href="#">SOMEWEBSITE.COM </a>
+										</div>
+									  </div>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>
